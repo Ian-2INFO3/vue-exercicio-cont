@@ -2,14 +2,16 @@
 import NewBlock from "@/components/NewBlock.vue";
 export default {
   components: { NewBlock },
+  data() {
+    return {
+      alunos1: ["Meu mano Mateus Rafael", "Meu mano Daniel"],
+    };
+  },
 };
 </script>
 <template>
   <main id="content">
-    <NewBlock
-      titulo="BLOCO-1"
-      :nomes="['Meu mano Mateus Rafael', 'Meu mano Daniel']"
-    />
+    <NewBlock titulo="BLOCO-1" :nomes="alunos1" />
     <NewBlock />
     <NewBlock />
     <NewBlock />
