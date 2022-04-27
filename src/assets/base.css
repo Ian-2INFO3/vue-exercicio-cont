@@ -46,8 +46,6 @@ body {
 }
 .alerta {
   background-color: red;
-  text-align: center;
-  justify-content: center;
   font-size: 30px;
   color: white;
 }

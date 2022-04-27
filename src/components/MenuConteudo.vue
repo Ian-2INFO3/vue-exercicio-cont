@@ -6,11 +6,14 @@ export default {
 </script>
 <template>
   <main id="content">
-    <NewBlock titulo="BLOCO-1" />
+    <NewBlock
+      titulo="BLOCO-1"
+      :nomes="['Meu mano Mateus Rafael', 'Meu mano Daniel']"
+    />
     <NewBlock />
     <NewBlock />
     <NewBlock />
-    <NewBlock titulo="URGENTE" class="alerta" />
+    <NewBlock titulo="URGENTE" :nomes="['Eduardo', 'Wedley']" class="alerta" />
     <NewBlock />
     <NewBlock />
     <NewBlock class="alerta" />
