@@ -13,7 +13,11 @@ export default {
     <NewBlock />
     <NewBlock />
     <NewBlock />
-    <NewBlock titulo="URGENTE" :nomes="['Eduardo', 'Wedley']" class="alerta" />
+    <NewBlock
+      titulo="URGENTE"
+      :nomes="['Meu mano michas', 'Meu mano Wesley']"
+      class="alerta"
+    />
     <NewBlock />
     <NewBlock />
     <NewBlock class="alerta" />
