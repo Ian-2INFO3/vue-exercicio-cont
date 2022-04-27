@@ -1,7 +1,9 @@
 <script>
-export default {};
+export default {
+  props: ["titulo"],
+};
 </script>
 <template>
-  <article class="block">Bloco</article>
+  <article class="block">{{ titulo }}</article>
 </template>
 <style></style>
